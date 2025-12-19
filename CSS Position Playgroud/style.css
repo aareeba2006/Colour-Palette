@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: rgb(250, 236, 232);
+    max-width: 700px;
+    height: 1000px;
+    margin: auto;
+    padding-top: 20px;
+    border-radius: 10px;
+
+}
+
+.element-A {
+    background-color: #bfbad9;
+    height: 100px;
+    width: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    position: static;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.element-b {
+    background-color: #f8cfae;
+    height: 100px;
+    width: 200px;
+    margin-top: 5px;
+    margin-left: 250px;
+    margin-right: 200px;
+    position: absolute;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.element-D {
+    background-color: #f2b3aa;
+    height: 100px;
+    width: 200px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 250px;
+    position: fixed;
+    text-align: center;
+    opacity: initial;
+}
+
+.element-C {
+    background-color: #c3e4d4;
+    height: 100px;
+    width: 200px;
+    margin-top: 100px;
+    margin-right: 20px;
+    /* right:20px; */
+    margin-left: 20px;
+    position: relative;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.element-E {
+    background-color: #b3dff1;
+    height: 100px;
+    width: 200px;
+    top: 0px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    position: sticky;
+    text-align: center;
+    border-radius: 10px;
+}
